@@ -1,0 +1,17 @@
+.myPic {
+    height: 300px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 200px;
+
+}
+
+.my-info {
+    margin-top: 20px;
+    margin-left: 40px;
+    /* border: 5px solid grey; */
+    /* border-radius: 20px; */
+    width: 40%;
+    padding-left: 10px;
+    text-align: justify;
+}
