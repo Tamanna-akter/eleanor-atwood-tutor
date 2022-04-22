@@ -1,0 +1,7 @@
+p {
+    font-size: 14px;
+}
+
+.service-card p {
+    text-align: justify;
+}

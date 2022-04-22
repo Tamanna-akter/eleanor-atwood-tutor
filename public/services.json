@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Tutoring General Math",
+        "price": "46",
+        "description": "General math is the broad field of basic mathematics. It includes math operations such as addition, subtraction, multiplication, and division. It also covers concepts such as fractions, decimals, exponents, and percentages.",
+        "img": "https://i.ibb.co/khBHCxh/img-1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Tutoring Algebra",
+        "price": "60",
+        "description": "Algebra is a branch of mathematics dealing with symbols and the rules for manipulating those symbols.There are plenty of books and courses you can access that will allow you to learn algebra on your own time.",
+        "img": "https://i.ibb.co/bd6bn39/img-2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tutoring Geometry",
+        "price": "75",
+        "description": "Geometry is a branch of mathematics that studies the sizes, shapes, positions angles and dimensions of things. Flat shapes like squares, circles, and triangles are a part of flat geometry and are called 2D shapes.",
+        "img": "https://i.ibb.co/dp2dGrT/img-3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Online Courses",
+        "price": "56",
+        "description": "Our online courses provide you with an affordable and flexible way to learn new skills and study new and emerging topics.",
+        "img": "https://i.ibb.co/WDjDFKN/img-4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Math Lectures",
+        "price": "87",
+        "description": "Complete and thorough notes will help students understand the logic steps they need to solve the problem.",
+        "img": "https://i.ibb.co/1zfpsCf/img-5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Consulting",
+        "price": "30",
+        "description": "We  provide a third party with expertise on a matter in exchange for a fee. The service may involve either advisory or implementation services.",
+        "img": "https://i.ibb.co/rd7gNjH/img-6.jpg"
+    }
+]

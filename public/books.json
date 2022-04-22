@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Academic Skills",
+        "price": "40.00",
+        "img": "https://i.ibb.co/1rmhQqC/book1.png"
+    },
+    {
+        "id": 2,
+        "name": "Learning Management",
+        "price": "42.00",
+        "img": "https://i.ibb.co/54x7LtJ/book2.png"
+    },
+    {
+        "id": 3,
+        "name": "Math for Kids",
+        "price": "72.00",
+        "img": "https://i.ibb.co/B2cmvFv/book3.png"
+    }
+]
