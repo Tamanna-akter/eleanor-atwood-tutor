@@ -8,6 +8,7 @@ import Services from './Pages/Home/Services/Services';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
 
 import Header from './Pages/Shared/Header/Header';
+import NotFound from './Pages/Shared/NotFound/NotFound';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/blogs" element={<Blogs> </Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
+        <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route path='/service/:serviceId' element={<ServiceDetails></ServiceDetails>}></Route>
 
       </Routes>
