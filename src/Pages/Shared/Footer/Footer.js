@@ -15,7 +15,7 @@ const Footer = () => {
                             <h6 className="text-uppercase fw-bold">Service</h6>
                             <hr />
                             <p>
-                                <Link to="/services" className="text-dark">General Math</Link>
+                                <Link to="/services" className="text-white">General Math</Link>
                             </p>
                             <p>
                                 <Link to="/services" className="text-white">Algebra</Link>
@@ -58,13 +58,14 @@ const Footer = () => {
                             <p> Manchester, North West, England, UK</p>
                             <p>+ 44 4234 567 89</p>
                             <p> + 44 7434 577 60</p>
+
                         </div>
 
                     </div>
                 </div>
             </section>
 
-            <div className="text-center p-2 copy-right"> &copy; {year} Copyright: All rights reserved
+            <div className="text-center p-2 copyright"> &copy; {year} Copyright: All Rights Reserved
 
             </div>
         </footer>

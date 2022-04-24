@@ -18,8 +18,10 @@ const Header = () => {
         <>
             <Navbar collapseOnSelect expand="lg" sticky='top' bg='dark' variant="dark">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">
+                    <Navbar.Brand as={Link} to="/" className='d-flex'>
+
                         <img height={40} width={80} src={logo} alt="" />
+                        <h5>Eleanor Atwood.tutor</h5>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
@@ -39,10 +41,7 @@ const Header = () => {
                                         Login
                                     </Nav.Link>}
                         </Nav>
-                        {/* <Nav>
 
-                           
-                        </Nav> */}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

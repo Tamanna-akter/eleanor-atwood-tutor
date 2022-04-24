@@ -11,7 +11,7 @@ const Book = ({ book }) => {
                     <h5 className="card-title">{name}</h5>
                     <h6>${price}</h6>
                 </div>
-                <button className='btn btn-info fw-bold w-50 mx-auto'> Add to Cart</button>
+                <button className='btn btn-info fw-bold w-50 mx-auto mb-3'> Add to Cart</button>
 
             </div>
         </div>

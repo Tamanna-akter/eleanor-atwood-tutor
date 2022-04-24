@@ -10,6 +10,8 @@
 }
 
 .register-form {
-    margin: 0 auto;
-    width: 50%;
+    /* background-color: darkgreen; */
+    margin-top: 20px;
+    background-color: darkslategrey;
+    margin-top: 20px;
 }

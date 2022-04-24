@@ -6,10 +6,6 @@ const Service = (props) => {
     const { id, name, img, description, price } = props.service;
     const navigate = useNavigate();
 
-    // const navigateToServiceDetail = id => {
-    //     navigate(`/service/${id}`);
-    // }
-
     return (
 
         <div className="col service-card mb-5">
@@ -20,7 +16,7 @@ const Service = (props) => {
                     <h6>${price}</h6>
                     <p className="card-text">{description}</p>
                 </div>
-                <button onClick={() => navigate(`/service/${id}`)} type="button" className="btn btn-primary fw-bold w-50 mx-auto">Start Now</button>
+                <button onClick={() => navigate(`/service/${id}`)} type="button" className="btn btn-primary fw-bold w-50 mx-auto mb-3">Start Now</button>
             </div>
         </div>
 

@@ -7,8 +7,8 @@ const ServiceDetails = () => {
     const { serviceId } = useParams();
 
     return (
-        <div className="container register-form">
-            <h2 className='text-center text-success'>Please fillup this form for  booking your seat for service id:{serviceId}</h2>
+        <div className="container register-form w-50">
+            <h2 className='text-center text-white'>Please fillup this form for  booking your seat for service id:{serviceId}</h2>
 
             <form>
                 <input type="text" name="name" id="" placeholder='Enter your Name' />

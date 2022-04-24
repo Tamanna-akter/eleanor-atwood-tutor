@@ -12,7 +12,7 @@ const Books = () => {
     return (
         <div id="books" className='container'>
             <div>
-                <h1 className='text-primary fst-italic text-center mt-3'>My Books</h1>
+                <h1 className='text-primary text-center mt-2'>My Books</h1>
                 <div className="services-container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     {
                         books.map(book => <Book
