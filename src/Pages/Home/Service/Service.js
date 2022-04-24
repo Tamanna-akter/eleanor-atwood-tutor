@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './Service.css';
 
-const Service = ({ service }) => {
-    const { id, name, img, description, price } = service;
-    // const navigate = useNavigate();
+const Service = (props) => {
+    const { id, name, img, description, price } = props.service;
+    const navigate = useNavigate();
 
     // const navigateToServiceDetail = id => {
     //     navigate(`/service/${id}`);
@@ -20,11 +20,12 @@ const Service = ({ service }) => {
                     <h6>${price}</h6>
                     <p className="card-text">{description}</p>
                 </div>
-                <Link className="btn btn-primary fw-bold w-50 mx-auto" to={`/serviceDetails/${id}`}>Start Now</Link>
-
+                <button onClick={() => navigate(`/service/${id}`)} type="button" className="btn btn-primary fw-bold w-50 mx-auto">Start Now</button>
             </div>
         </div>
+
     );
 };
+
 
 export default Service;
