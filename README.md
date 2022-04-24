@@ -1,11 +1,11 @@
-# Eleano Atwood.tutor (tutor service)
+# Eleanor-Atwood.tutor (tutor service)
 
 ### Deployment
 
 
 Live-site Link: 
 
-## Technologies(framework/library)
+### Technologies(framework/library)
 * HTML, CSS
 * Bootstrap, react-bootstrap
 * React js, react router
