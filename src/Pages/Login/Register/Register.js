@@ -42,7 +42,7 @@ const Register = () => {
     }
 
     return (
-        <div className='register-form w-25 mt-3'>
+        <div className='register-form w-25 mt-3 mx-auto'>
             <h2 style={{ textAlign: 'center' }}>Please Register</h2>
             <form onSubmit={handleRegister}>
                 <input type="text" name="name" id="" placeholder='Your Name' />
@@ -59,7 +59,7 @@ const Register = () => {
                     type="submit"
                     value="Register" />
             </form>
-            <p>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
+            <p className='text-white'>Already have an account? <Link to="/login" className='text-primary pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
             <GoogleLogin></GoogleLogin>
         </div>
     );
