@@ -16,7 +16,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" sticky='top' bg="secondary" variant="dark">
+            <Navbar collapseOnSelect expand="lg" sticky='top' bg='dark' variant="dark">
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <img height={40} width={80} src={logo} alt="" />
@@ -27,13 +27,13 @@ const Header = () => {
                             <Nav.Link as={Link} to="/home">Home</Nav.Link>
                             <Nav.Link as={Link} to="/services">Services</Nav.Link>
 
-                            <Nav.Link href="home#books">Books</Nav.Link>
+                            <Nav.Link as={Link} to="/books">Books</Nav.Link>
 
                             <Nav.Link as={Link} to="blogs">Blogs</Nav.Link>
                             <Nav.Link as={Link} to="about">About</Nav.Link>
                             {
                                 user ?
-                                    <button className='btn btn-link text-info text-decoration-none' onClick={handleSignOut}>sign out</button>
+                                    <button className='btn btn-link text-white fw-bold fs-5 text-decoration-none' onClick={handleSignOut}>Log Out</button>
                                     :
                                     <Nav.Link as={Link} to="login">
                                         Login

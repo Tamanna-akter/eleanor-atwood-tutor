@@ -5,6 +5,7 @@ import './Services.css';
 
 const Services = () => {
     const [services] = useServices();
+    // console.log(services);
     // const [services, setServices] = useState([]);
 
     // useEffect(() => {

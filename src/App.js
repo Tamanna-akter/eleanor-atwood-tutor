@@ -3,12 +3,15 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Pages/About/About';
 import Blogs from './Pages/Blogs/Blogs';
+import Checkout from './Pages/Checkout/Checkout';
+import Books from './Pages/Home/Books/Books';
 import Home from './Pages/Home/Home/Home';
 import Services from './Pages/Home/Services/Services';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import ServiceDetails from './Pages/ServiceDetails/ServiceDetails';
+import Footer from './Pages/Shared/Footer/Footer';
 
 import Header from './Pages/Shared/Header/Header';
 import NotFound from './Pages/Shared/NotFound/NotFound';
@@ -22,11 +25,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
-        <Route path='/services' element={
-          <RequireAuth>
-            <Services></Services>
-          </RequireAuth>
-        }></Route>
+        <Route path='/services' element={<Services></Services>}></Route>
+        <Route path='/books' element={<Books></Books>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
         <Route path="/blogs" element={<Blogs> </Blogs>}></Route>
         <Route path="/about" element={<About></About>}></Route>
@@ -35,12 +35,17 @@ function App() {
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
         <Route path='/service/:serviceId' element={
+
+          <ServiceDetails></ServiceDetails>
+        }></Route>
+        <Route path="/checkout" element={
           <RequireAuth>
-            <ServiceDetails></ServiceDetails>
+            <Checkout></Checkout>
           </RequireAuth>
         }></Route>
 
       </Routes>
+      <Footer></Footer>
 
 
     </div>
