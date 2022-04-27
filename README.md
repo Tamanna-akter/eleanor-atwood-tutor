@@ -3,7 +3,7 @@
 ### Deployment
 
 
-Live-site Link: https://e-tutor-dbd3e.firebaseapp.com/
+Live-site Link: https://e-tutor-dbd3e.web.app/
 
 ### Technologies(framework/library)
 * HTML, CSS
